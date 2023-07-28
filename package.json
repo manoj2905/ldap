@@ -1,0 +1,31 @@
+{
+  "name": "ldap-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.ts",
+    "build": "tsc",
+    "swagger-autogen": "node swagger.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ldapjs": "^3.0.4",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-ldapauth": "^3.0.1",
+    "swagger-autogen": "^2.23.5",
+    "swagger-ui-express": "^5.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/passport": "^1.0.12",
+    "@types/swagger-ui-express": "^4.1.3"
+  }
+}
